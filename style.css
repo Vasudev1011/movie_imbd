@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+padding: 5px;
+text-align: center;
+font-size: 2em;
+font-weight: 900;
+color: white;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    /*padding:0 0 4.5rem;*/
+}
+
+.navbar-item{
+    padding: 0 ;
+
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-light";
+}
+
+section{
+    padding: 20px 80px 100px 80px;
+}
+.input-button{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.input-button label{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2px;
+}
+.input-button .movie-input-in{
+    padding: 2px;
+    width: 170px;
+    margin-bottom: -1px;
+    border-radius: 3px;
+    border: 2px solid rgb(143, 140, 140);
+}
+
+.input-button button{
+    border-radius: 3px;
+    width: 60px;
+    border: 2px solid rgb(143, 140, 140);
+}
+
+.list-movies{
+    margin-top: 20px;
+
+}
+#movie-list-show{
+    margin-top: 20px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+}
+#movie-header{
+    text-transform: capitalize;
+}
+
+.movie-card{
+    margin-right: 25px;
+    margin-left: 3px;
+}
+
+.movie-card img{
+    width: 250px;
+    height: 300px;
+    border-radius: 0.3em;
+}
+.movie-card div{
+    display: flex;
+    align-items: center;
+
+}
+.movie-card h5{
+    width: 250px;
+    padding: 10px 0px 1px 0px;
+    font-size: 1.2em;
+}
+.movie-card-rank{
+    background-color: black;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 0.3em;
+    margin: 3px 5px;
+}
+.movie-card:hover img{
+    box-shadow: 10px 10px 10px rgb(218, 209, 209);
+}
+
+#footer{
+     background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    padding: 3% 8%;
+    text-align: center;
+    color: white;
+}
+
+.social-icon{
+    margin: 10px;
+}
